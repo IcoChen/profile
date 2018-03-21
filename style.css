@@ -1,0 +1,118 @@
+/* Colors and Fonts */
+
+body {
+    background: linear-gradient(#304352, #d7d2cc);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #B9D4F1;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B9D4F1;
+    text-decoration: none;
+}
+
+
+/* First simple components */
+
+.container {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.card {
+    background: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.list-inline li i {
+    font-size: 25px;
+}
+
+.btn-red {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border: 2px solid white
+}
+
+.btn-red:hover {
+    background-color: black;
+    color: black;
+}
+
+
+/* Specific CSS rules */
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 0px solid #cccccc;
+}
+
+#movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#movies img {
+    width: 80px;
+}
+
+#movies td {
+    padding: 10px;
+}
