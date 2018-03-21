@@ -4,7 +4,7 @@ body {
     background: linear-gradient(#304352, #d7d2cc);
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: white;
+    color: black;
     font-size: 15px;
     line-height: 1.6em;
 }
@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-    color: #B9D4F1;
+    color: black;
     font-size: 22px;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .card {
-    background: black;
+    background: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -86,12 +86,12 @@ a:hover {
     color: white;
     font-weight: 500;
     padding: 10px;
-    border: 2px solid white
+    border: 2px solid black
 }
 
 .btn-red:hover {
-    background-color: black;
-    color: black;
+    background-color: white;
+    color: white;
 }
 
 
@@ -116,3 +116,41 @@ a:hover {
 #movies td {
     padding: 10px;
 }
+
+
+/* Fixed sidebar layout */
+
+#content {
+    margin-left: 120px;
+}
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+
+#sidebar a:hover {
+    color: white;
+}
+
